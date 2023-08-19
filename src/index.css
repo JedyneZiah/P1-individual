@@ -41,16 +41,41 @@
   text-align: center !important;
 }
 
+/* Media */
 @media (max-width: 767px) {
-  .footer-copywright {
-    text-align: center !important;
-  }
 
+  
+
+  .footer-copywright,
   .footer-body {
-    text-align: center !important;
-    
+    text-align: center;
+    margin: 0;
+  }
+  .footer{
+    margin-top: 20vh;
   }
 }
+
+@media (max-width: 480px) {
+  .footer-copywright,
+  .footer-body{
+    text-align: center;
+    margin: 0;
+  }
+  .photo{
+    width: 100px;
+    height: 100px;
+   }
+}
+
+@media (max-width: 320px) {
+  .footer-copywright,
+  .footer-body {
+    text-align: center;
+    margin: 0;
+  }
+}
+
 
 .footer h2 {
     

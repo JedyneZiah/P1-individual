@@ -5,18 +5,19 @@ import AccordionBody from 'react-bootstrap/esm/AccordionBody';
 
 const Education = () => {
   return (
-    <Container style={{color: "black"}}>
+    <Container style={{color: "white"}}>
       <h2 className='display-1 fw-bold text-center'>My Education</h2>
       <p className='text-center'>These are my academic qualifications:</p>
       <hr/>
       <Container className='p-5'>
-      <Accordion defaultActiveKey="0" >
+      <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
         <Accordion.Header>2008-2010</Accordion.Header>
         <Accordion.Body>
         Malued Elem School
         </Accordion.Body>
       </Accordion.Item>
+
       <Accordion.Item eventKey="1">
         <Accordion.Header>2010-2011</Accordion.Header>
         <Accordion.Body>

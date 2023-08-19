@@ -29,9 +29,7 @@ const Home = () => {
           I'm a web developer and researcher, passionate about creating innovative online experiences
           </p>
           <div className='d-flex align-items-center gap-2'> 
-            <Link to='/work'>
-              <Button className='btn-lg' color='#4e47d6'>View My Work</Button>
-            </Link>
+            
             
             <SocialLinks />
           </div>

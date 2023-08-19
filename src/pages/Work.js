@@ -21,7 +21,7 @@ const Work = () => {
     <Card style={{margin: "20px", borderRadius: "20px"}}>
       <Card.Img variant="top" src="flapp.png" style={{borderRadius:"20px"}}/>
       <Card.Body>
-        <Card.Title>Card title</Card.Title>
+        <Card.Title>Flapp</Card.Title>
         <Card.Text>
         Flapp is a digital platform that enables users to exchange text, multimedia, and sometimes voice messages in real-time. It serves as a convenient and efficient way for individuals in University of Pangasinan to communicate, with memo and announcements.
         </Card.Text>
